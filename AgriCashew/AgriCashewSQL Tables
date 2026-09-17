@@ -15,7 +15,6 @@ mysql> CREATE TABLE users (
     ->     password VARCHAR(255) NOT NULL,
     ->     phone VARCHAR(15) UNIQUE NOT NULL,
     ->     email VARCHAR(100),
-    ->     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     -> );
 Query OK, 0 rows affected (0.06 sec)
 
